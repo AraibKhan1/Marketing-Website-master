@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import CtaButton from "./CtaButton";
-import video from "../img/video/Showreel.mp4";
+import video from "../img/video/Dremie.mp4";
 
 // aos
 import AOS from "aos";
