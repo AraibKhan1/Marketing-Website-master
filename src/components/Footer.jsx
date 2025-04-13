@@ -70,25 +70,25 @@ const Footer = () => {
         </h1>
         <ul>
           <li className="mb-2 arrow">
-            <Link to="/animation" className="text-zinc-700">
-              Animation
+            <Link to="/Marketing-Website/animation" className="text-zinc-700">
+              Animation and Motion Graphics
             </Link>
           </li>
           <li className="mb-2 arrow">
-          <Link to="/editing" className="text-zinc-700">
+          <Link to="/Marketing-Website/editing" className="text-zinc-700">
 Editing
             </Link>
           </li>
           <li className="mb-2 arrow">
-          <Link to="/motion-graphics" className="text-zinc-700">
-                  Motion Graphics
+          <Link to="/Marketing-Website/commercials" className="text-zinc-700">
+          commercials
             </Link>
           </li>
-          <li className="mb-2 arrow">
+          {/* <li className="mb-2 arrow">
           <Link to="/campagin-creation" className="text-zinc-700">
           Campagin Creation
             </Link>
-          </li>
+          </li> */}
           <li className="mb-2 arrow">
           <Link to="/hireus" className="text-zinc-700">
           Hire Us

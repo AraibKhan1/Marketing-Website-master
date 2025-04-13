@@ -15,15 +15,16 @@ const Seo = () => {
   ];
 
   const youtubeVideoIds = [
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
+    "4Elq3uLYzDk",
+    "5eNh-71WbzA",
+    "3u1-pTzokbA",
+    "kABq7v7fsLk",
+    "RMf9kggtJM8",
+    "N57tsWYuBXI",
+    "xgNbb7RY5Lc",
+    "ez-lBNGzyfw",
+    "AIUplzzQB0c",
+    "dpXOR2GeL6k",
   ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -44,7 +45,7 @@ const Seo = () => {
       <div className="secondary-font">
         <NavBar />
       </div>
-      <Template  title="Motion Graphics" />
+      <Template  title="Commercial" />
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {youtubeVideoIds.map((videoId, index) => (

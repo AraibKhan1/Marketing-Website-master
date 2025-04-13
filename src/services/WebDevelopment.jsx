@@ -15,15 +15,14 @@ const WebDevelopment = () => {
   ];
 
   const youtubeVideoIds = [
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
+    "8p90gPpN0ek",
+    "j6cckqQd8rE",
+    "NvoJj2xOig4",
+    "exLHV79fUys",
+    "xg3xNsf0AKk",
+    "KqY_BZ8AOfU",
+    "N5HrkByMwno",
+    
   ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -44,7 +43,7 @@ const WebDevelopment = () => {
       <div className="secondary-font">
         <NavBar />
       </div>
-      <Template  title="EDITING" />
+      <Template  title="STUDIO CUT EDITS" />
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {youtubeVideoIds.map((videoId, index) => (

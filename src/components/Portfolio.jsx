@@ -14,31 +14,24 @@ const Portfolio = () => {
       <div className="flex justify-center items-center mt-2">
         <div className="bg-orange-600 h-1 w-16 rounded"></div>
       </div>
-      <p className="text-white-700 text-center mt-7 mb-10 text-lg">
-        Explore Our Live Courses & Make Bharat ka Career Launchpad
-      </p>
 
       {/* YouTube Thumbnails */}
       <div className="flex flex-col justify-center items-center lg:gap-6 gap-3 p-5 mb-10">
         {/* Row 1 */}
         <div data-aos="fade-right" className="flex flex-col md:flex-row lg:gap-6 gap-3">
-          <PortfolioProduct youtubeId="cFQ6olDpbqc" /> {/* Rick Astley - Never Gonna Give You Up */}
-          <PortfolioProduct youtubeId="3JZ_D3ELwOQ" /> {/* Alan Walker - Faded */}
-          <PortfolioProduct youtubeId="L_XJ_s5IsQc" /> {/* Imagine Dragons - Believer */}
+          <PortfolioProduct youtubeId="7FA01RDlGY4" /> {/* Rick Astley - Never Gonna Give You Up */}
+          <PortfolioProduct youtubeId="dpXOR2GeL6k" /> {/* Alan Walker - Faded */}
+          <PortfolioProduct youtubeId="kABq7v7fsLk" /> {/* Imagine Dragons - Believer */}
         </div>
 
         {/* Row 2 */}
         <div data-aos="fade-left" className="md:flex lg:gap-6 gap-3 hidden">
-          <PortfolioProduct youtubeId="VYOjWnS4cMY" /> {/* Childish Gambino - This is America */}
-          <PortfolioProduct youtubeId="60ItHLz5WEA" /> {/* The Chainsmokers & Coldplay - Something Just Like This */}
-          <PortfolioProduct youtubeId="ZkaG2lL7dD4" /> {/* Random video */}
+          <PortfolioProduct youtubeId="T9u-FswnOpI" /> {/* Childish Gambino - This is America */}
+          <PortfolioProduct youtubeId="N57tsWYuBXI" /> {/* The Chainsmokers & Coldplay - Something Just Like This */}
+          <PortfolioProduct youtubeId="RMf9kggtJM8" /> {/* Random video */}
         </div>
        
-        <div data-aos="fade-left" className="md:flex lg:gap-6 gap-3 hidden">
-          <PortfolioProduct youtubeId="VYOjWnS4cMY" /> {/* Childish Gambino - This is America */}
-          <PortfolioProduct youtubeId="60ItHLz5WEA" /> {/* The Chainsmokers & Coldplay - Something Just Like This */}
-          <PortfolioProduct youtubeId="ZkaG2lL7dD4" /> {/* Random video */}
-        </div> 
+       
         
       </div>
     </div>

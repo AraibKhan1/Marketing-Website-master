@@ -33,37 +33,38 @@ const Services = () => {
     className="flex flex-col lg:flex-row items-center gap-5"
     data-aos="fade-up"
   >
-    <div onClick={() => navigate("/animation")}>
+  <div onClick={() => navigate("/Marketing-Website/commercials")}>
       <Card
         img={<HiOutlineChartPie />}
-        title={"Animation"}
+        title={"Commercials"}
+        desc={
+          "Hign Impact commercial edits that elevate your brand and drive result"
+        }
+      />
+    </div>
+    <div onClick={() => navigate("/Marketing-Website/animation")}>
+      <Card
+        img={<HiOutlineChartPie />}
+        title={"Animation and Motion Graphics"}
         desc={
           "Bring your ideas to life with high-quality 2D & 3D animations designed to engage and inspire."
         }
       />
     </div>
 
-    <div onClick={() => navigate("/editing")}>
+    <div onClick={() => navigate("/Marketing-Website/editing")}>
       <Card
         img={<HiOutlineChartPie />}
-        title={"Editing"}
+        title={"Studio-Cut Edits"}
         desc={
           "Professional video editing services to enhance your content and captivate your audience."
         }
       />
     </div>
 
-    <div onClick={() => navigate("/motion-graphics")}>
-      <Card
-        img={<HiOutlineChartPie />}
-        title={"Motion Graphics"}
-        desc={
-          "Dynamic motion graphics that communicate your message with clarity and creative flair."
-        }
-      />
-    </div>
+    
 
-    <div onClick={() => navigate("/campagin-creation")}>
+    {/* <div onClick={() => navigate("/campagin-creation")}>
       <Card
         img={<HiOutlineChartPie />}
         title={"Campaign Creation"}
@@ -71,7 +72,7 @@ const Services = () => {
           "End-to-end campaign strategies that drive results through innovative content and design."
         }
       />
-    </div>
+    </div> */}
   </div>
 </div>
   );
