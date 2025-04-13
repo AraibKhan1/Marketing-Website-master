@@ -30,11 +30,10 @@ const About = () => {
         <div className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0">
           <div data-aos="fade-left">
             <h1 className="text-[#7A6960] md:text-3xl font-semibold">
-              Bringing Your Vision to Life with Stunning Motion Graphics{' '}
-            </h1>
+            Bringing Your Vision to Life with Stunning Commercial            </h1>
             <p className="text-lg mt-5 text-gray-600 primary-font">
-              We specialize in high-quality motion graphics, video editing, and visual storytelling. Our goal is to
-              create engaging and professional content that leaves a lasting impact.
+            We specialize in high-quality Commercial, video editing, and visual storytelling. Our goal is to create engaging and professional content that leaves a lasting impact.
+
             </p>
           </div>
 

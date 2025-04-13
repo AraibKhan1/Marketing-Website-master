@@ -15,15 +15,10 @@ const Animation = () => {
   ];
 
   const youtubeVideoIds = [
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
-    "dQw4w9WgXcQ",
+    "JckIVKeFD18",
+    "7FA01RDlGY4",
+    "T9u-FswnOpI",
+   
   ];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -44,7 +39,7 @@ const Animation = () => {
       <div className="secondary-font">
         <NavBar />
       </div>
-      <Template  title="ANIMATION" />
+      <Template  title="ANIMATION AND MOTION GRAPHICS" />
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {youtubeVideoIds.map((videoId, index) => (
