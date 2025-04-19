@@ -33,7 +33,7 @@ const Services = () => {
     className="flex flex-col lg:flex-row items-center gap-5"
     data-aos="fade-up"
   >
-  <div onClick={() => navigate("/Marketing-Website/commercials")}>
+  <div onClick={() => navigate("/commercials")}>
       <Card
         img={<HiOutlineChartPie />}
         title={"Commercials"}
@@ -42,7 +42,7 @@ const Services = () => {
         }
       />
     </div>
-    <div onClick={() => navigate("/Marketing-Website/animation")}>
+    <div onClick={() => navigate("/animation")}>
       <Card
         img={<HiOutlineChartPie />}
         title={"Animation and Motion Graphics"}
@@ -52,7 +52,7 @@ const Services = () => {
       />
     </div>
 
-    <div onClick={() => navigate("/Marketing-Website/editing")}>
+    <div onClick={() => navigate("/editing")}>
       <Card
         img={<HiOutlineChartPie />}
         title={"Studio-Cut Edits"}
